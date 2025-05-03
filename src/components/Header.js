@@ -33,7 +33,7 @@ export const Header = () => {
       <nav className="border-b-2 bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-900">
         <div className="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-3 rtl:space-x-reverse">
+          <Link to="/"  className="flex items-center justify-center md:justify-start space-x-3 rtl:space-x-reverse w-full md:w-auto mb-4 md:mb-0">
             <img src={Logo} className="h-14" alt="Sinemeka Logo" />
             <span className="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">
               Sinemeka
